@@ -46,15 +46,15 @@ The software environment differs from the environment used for the original expe
 
 The reproduced results may differ slightly from the results reported in the original research.
 
-For example, the tuned LSTM achieved a test accuracy of **93.55%** in the original experiment, while the 2026 reproduction achieved **92.55%**.
+For example, the tuned LSTM achieved a test accuracy of **93.27%** in the original experiment, while the 2026 reproduction achieved **92.59%**.
 
-| Model        | Original Test Accuracy | 2026 Reproduction |
-| ------------ | ---------------------: | ----------------: |
-| LSTM (Tuned) |                 93.55% |            92.59% |
-| LSTM         |                      — |            92.40% |
-| GRU          |                      — |            92.37% |
-| SRN          |                      — |            92.09% |
-| GRU (Tuned)  |                      — |            92.00% |
+| Model        | Test Accuracy (Original 2025) | Test Accuracy (2026 Reproduction) |
+| ------------ | ----------------------------: | --------------------------------: |
+| LSTM (Tuned) |                        93.27% |                            92.59% |
+| LSTM         |                        92.77% |                            92.40% |
+| GRU          |                        93.02% |                            92.37% |
+| SRN          |                        93.08% |                            92.09% |
+| GRU (Tuned)  |                        92.90% |                            92.00% |
 
 
 The remaining results will be added after completing the reproduction experiments.
