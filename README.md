@@ -50,11 +50,12 @@ For example, the tuned LSTM achieved a test accuracy of **93.55%** in the origin
 
 | Model        | Original Test Accuracy | 2026 Reproduction |
 | ------------ | ---------------------: | ----------------: |
-| LSTM         |                      — |                 — |
-| LSTM (Tuned) |                 93.55% |            92.55% |
-| GRU          |                      — |                 — |
-| GRU (Tuned)  |                      — |                 — |
-| SRN          |                      — |                 — |
+| LSTM (Tuned) |                 93.55% |            92.59% |
+| LSTM         |                      — |            92.40% |
+| GRU          |                      — |            92.37% |
+| SRN          |                      — |            92.09% |
+| GRU (Tuned)  |                      — |            92.00% |
+
 
 The remaining results will be added after completing the reproduction experiments.
 
